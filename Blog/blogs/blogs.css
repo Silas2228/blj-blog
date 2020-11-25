@@ -7,7 +7,7 @@ body {
 }
 .flexnavigation-container {
     padding: 0;
-    margin-top: 10px;
+    
     list-style-type: none;
     display: flex;
     justify-content: space-around;
@@ -48,8 +48,8 @@ body {
     grid-column-end: 3;
     border: 4px solid black;
     max-width: 100%;
-    margin-left: 800px;
-    margin-right: 800x;
+    margin-left: 200px;
+    margin-right: 200px;
     margin-top: 20px;
     background: rgba(145, 205, 216 0);
     background: rgba(214, 120, 58, 0.918);

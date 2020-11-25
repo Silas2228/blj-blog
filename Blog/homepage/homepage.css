@@ -57,20 +57,17 @@ body {
     background: rgba(145, 205, 216, 0.5);
     
 }
-.homelabels {
-    margin-top: .7em;
-    margin-bottom: .3em;
-}
+
 .input {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
+    
+   
+    margin-left: 5px;
+    margin-right: 5px;
     box-sizing: border-box;
   }
 
 .inputblog {
       width: 98% ;
-      
       margin: 5px;
 }
 

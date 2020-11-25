@@ -1,59 +1,19 @@
-<?php
-$errors = [];
-$formsent = false;
 
-
-
-
-
-
-//connectiom    
-try {
-    $user = 'root';
-    $password = '';
-    $pdo = new PDO('mysql:host=localhost;dbname=blog', $user, $password, [
-        PDO::ATTR_ERRMODE            => PDO::ERRMODE_EXCEPTION,
-        PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8',
-    ]);
-}
-catch(PDOException $e)
-{
-    die('Keiene Verbindung zur Database möglich' . $e->getMessage());
-}
-
-$dbConnection = new PDO('mysql:host=localhost;dbname=blog', 'root', '');
-//insert into database
-$stmt = $pdo->prepare('INSERT INTO datenblog (created_by, blog, time) 
-                                    VALUES (:created_by, :blog, now())');
-                                    
-                                    $created_by = $_POST['name'] ?? '';
-                                    $blog = $_POST['blog'] ?? '';
-
-$stmt->execute([':created_by' => $created_by, ':blog' => $blog ]);
-
-//select        
-//$stmt = $pdo->prepare('SELECT * FROM `datenblog` WHERE id = :id');
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    $created_by = trim($created_by);
-    $blog = trim($blog);
-
-    if(!empty($_REQUEST['query']))
-    {
-    $blog = $_REQUEST['blog'];
-    }
-
-}
-       
-
-
-?>
 
 <!DOCTYPE html>
 <html>
 <head> 
     <meta charset="utf-8">
     <link rel="stylesheet" href="homepage.css">
-
+    
+    <?php
+    include '../database/database.php';
+    foreach ($errors as $error)
+    {
+        echo "<li>$error</li>";
+    }
+    ?>
+    
 <body>
     <?php
         include '..\nav\navigation.php';
