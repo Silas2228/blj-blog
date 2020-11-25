@@ -13,7 +13,7 @@
     ?>
     <div class="gridhome">
         <h2>Write your blog!</h2>
-        <form action="homepage.php" method="POST">
+        <form action="writeblog.php" method="POST">
         <label class="homelabels" for="title"><h3>Title:</h3></label>
         <input class="input" type="text" id="title"></input>
         <label class="homelabels" for="name"><h3>Name:</h3></label>
