@@ -8,15 +8,17 @@
 
     <body>
     <?php
-        include '..\nav\navigation.php';
-        include '../database/database.php';
+        include '../nav/navigation.php';
+        require '../database/database.php';
     ?>¨
         <div class="gridblogs">
             <ul>
                 <?php
-                $stmt->execute([':id' => 1]);
+                $stmt = $pdo->query("SELECT * FROM `datenblog`");
+                
                 foreach($stmt->fetchAll() as $x) {
-                    var_dump($x);
+                echo"<li>$x[1]</li>";
+                echo"<li>$x[2]</i>";
                 }
                 ?>
             </ul>

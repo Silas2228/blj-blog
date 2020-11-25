@@ -1,5 +1,5 @@
 body {
-    background-image: url('../bilder/snow.jpg');
+    background-image: url('../bilder/homepage2.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -14,11 +14,13 @@ body {
     justify-content: space-around;
     flex-direction: row;
     border: 1px solid black;
-    background-color: rgb(145, 205, 216);
+    color: #ffffff;
+    background-color: rgb(140, 58, 207);
     align-items: center;
 }
 .flexbuttonsnav-container {
     flex-grow: 100;
+    color: #ffffff;
     width: auto;
     height: auto;
     display: flex;
@@ -29,50 +31,18 @@ body {
     margin-left: 10px;
 }
 .buttonnav {
-    color: #494949 !important;
+    color: #ffffff !important;
     text-transform: uppercase;
     text-decoration: none;
-    background:  rgb(145, 205, 216);
+    background:  rgb(140, 58, 207);
     padding: 10px;
-    border: 2px solid #494949 !important;
+    border: 2px solid #ffffff !important;
     display: inline-block;
     transition: all 0.4s ease 0s;
 }
 .buttonnav:hover {
     color: #ffffff !important;
-    background:  #3661ee;
-    border-color: #3661ee !important;
+    background:  #8431e2;
+    border-color: #8431e2 !important;
     transition: all 0.4s ease 0s;
 }
-
-.gridhome {
-    grid-column-start: 1;
-    grid-column-end: 3;
-    border: 4px solid black;
-    max-width: 100%;
-    margin-left: 500px;
-    margin-right: 500px;
-    margin-top: 20px;
-    background: rgba(145, 205, 216 0);
-    background: rgba(145, 205, 216, 0.5);
-    
-}
-
-.input {
-    margin-left: 5px;
-    margin-right: 5px;
-    box-sizing: border-box;
-  }
-
-.inputblog {
-      width: 98% ;
-      margin: 5px;
-}
-
-
-
-
-
-
-
-
