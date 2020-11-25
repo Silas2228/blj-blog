@@ -7,7 +7,6 @@ body {
 }
 .flexnavigation-container {
     padding: 0;
-    
     list-style-type: none;
     display: flex;
     justify-content: space-around;
