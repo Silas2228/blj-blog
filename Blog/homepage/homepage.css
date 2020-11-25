@@ -64,16 +64,15 @@ body {
 .input {
     width: 100%;
     padding: 12px 20px;
-    margin: 8px 0px;
+    margin: 8px 0;
     box-sizing: border-box;
   }
 
 .inputblog {
       width: 98% ;
-      height: 300px;
-      margin: 5px;
       
-  }
+      margin: 5px;
+}
 
 
 
