@@ -6,6 +6,10 @@ body {
     background-position: center;
 }
 
+ul, li {
+    list-style-type: none;
+}
+
 .flexnavigation-container {
     padding: 0;
     margin-top: 10px;
@@ -86,6 +90,7 @@ body {
 .buttonpost {
     margin-top: 10px;
 }
+
 
 
 

@@ -5,5 +5,6 @@
                 <li><a class="buttonnav" href="../homepage/homepage.php">Home</a></li>
                 <li><a class="buttonnav" href="../writeblog/writeblog.php">Write a Blog</a></li>
                 <li><a class="buttonnav" href="../blogs/blogs.php">Blogs</a></li>
+                <li><a class="buttonnav" href="../blogsblj/bljpage.php">Blj BLogs</a></li>
     </ul>
 </nav>
