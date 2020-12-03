@@ -10,3 +10,4 @@ $pdo = new PDO("mysql:host=mysql2.webland.ch;dbname=d041e_listuder", $dbuser, $d
 ]);
 $sqlQuery = $pdo->query("SELECT * FROM `blog_url`");
 $urls = $sqlQuery->fetchAll();
+?>

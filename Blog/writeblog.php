@@ -3,13 +3,14 @@
 <!DOCTYPE html>
 <html>
 <head> 
+    <title>Write your own blog</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="writeblog.css">
+    <link rel="stylesheet" href="css/writeblog.css">
     </head>
 <body>
     <?php
-        include '../nav/navigation.php';
-        include '../database/database.php';
+        include('navigation.php');
+        include('database/database.php');
     ?>
     <div class="gridhome">
         <h2>Write your blog!</h2>
@@ -21,8 +22,8 @@
         <label class="homelabels" for="blog"><h3>Blog:</h3></label>
         <textarea class ="inputblog" type="text"rows="6" cols="40" class="cssdesign" id="blog" name="blog"></textarea> 
         <label class="homelabels" for="link"><h3>Picture link:</h3></label>
-        <input class="input" type="text" id="link"></input>
-        <div class="buttonpost"><button class="buttonnav" type="submit" name="submit">Post</button></div>
+        <input class="input" type="text" name="link" id="link"></input>
+        <div class="buttonpost"><button class="buttonnav" type="submit" name="submit">Post</button></div> 
         </form>
 
     </div>

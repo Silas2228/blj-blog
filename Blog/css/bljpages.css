@@ -17,7 +17,7 @@ ul, li {
     flex-direction: row;
     border: 1px solid black;
     color: #ffffff;
-    background-color: rgb(25, 253, 82);
+    background-color: rgb(140, 58, 207);
     align-items: center;
 }
 .flexbuttonsnav-container {
@@ -35,7 +35,7 @@ ul, li {
     color: #ffffff !important;
     text-transform: uppercase;
     text-decoration: none;
-    background:  rgb(25, 253, 82);
+    background:  rgb(140, 58, 207);
     padding: 10px;
     border: 2px solid #ffffff!important;
     display: inline-block;
@@ -43,8 +43,8 @@ ul, li {
 }
 .buttonnav:hover {
     color: #ffffff !important;
-    background:  #119e30cc;
-    border-color:#119e30cc!important;
+    background:  #8431e2 ;
+    border-color:#8431e2 !important;
     transition: all 0.4s ease 0s;
 }
 .gridblogs {
@@ -52,11 +52,11 @@ ul, li {
     grid-column-end: 3;
     border: 4px solid black;
     max-width: 100%;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 500px;
+    margin-right: 500px;
     margin-top: 20px;
-    background: rgb(25, 253, 82 0);
-    background: rgb(25, 253, 82, 0.918);
+    background: rgb(140, 58, 207 0);
+    background: rgb(140, 58, 207, 0.918);
     
 }
 
